@@ -39,6 +39,8 @@ echo -e "${green_bg} Step 2 ${NC}${green} Initializing site...${NC}"
 fin init-site
 
 fin project reset cli
+sudo apt-get install npm
+npm install --prefix ./web/themes/custom/poetic
 fin drush cr
 
 echo -e "${green_bg} DONE! ${NC}${green} Completed all initialization steps.${NC}"
