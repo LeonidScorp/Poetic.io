@@ -10,4 +10,4 @@ username: admin
 
 password: admin
 
-#Subtheme name: Poetic
+# Subtheme name: Poetic
