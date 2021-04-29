@@ -1,0 +1,25 @@
+uuid: 348b8239-7bb7-4263-a4e3-1bd7c05f69b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.news.field_main_text
+    - paragraphs.paragraphs_type.news
+  module:
+    - text
+id: paragraph.news.default
+targetEntityType: paragraph
+bundle: news
+mode: default
+content:
+  field_main_text:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

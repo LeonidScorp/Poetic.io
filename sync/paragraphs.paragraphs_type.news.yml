@@ -1,0 +1,10 @@
+uuid: 0532aad7-9c6b-4389-9125-95c0c91e9928
+langcode: en
+status: true
+dependencies: {  }
+id: news
+label: 'Main text'
+icon_uuid: null
+icon_default: null
+description: 'Special paragraph for content News'
+behavior_plugins: {  }

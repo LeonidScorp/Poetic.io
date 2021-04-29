@@ -1,0 +1,41 @@
+uuid: cb568737-3243-47d0-9397-12ac9a91c4aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news
+    - node.type.news
+    - paragraphs.paragraphs_type.news
+    - paragraphs.paragraphs_type.quote
+    - paragraphs.paragraphs_type.subtitle
+  module:
+    - entity_reference_revisions
+id: node.news.field_news
+field_name: field_news
+entity_type: node
+bundle: news
+label: news
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      news: news
+      quote: quote
+      subtitle: subtitle
+    target_bundles_drag_drop:
+      news:
+        enabled: true
+        weight: 2
+      quote:
+        enabled: true
+        weight: 5
+      subtitle:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

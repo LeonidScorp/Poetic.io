@@ -1,0 +1,21 @@
+uuid: 2f7e7bc9-658c-40e7-9412-ff4e06c8ea09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_main_text
+    - paragraphs.paragraphs_type.news
+  module:
+    - text
+id: paragraph.news.field_main_text
+field_name: field_main_text
+entity_type: paragraph
+bundle: news
+label: 'Main text'
+description: 'Using for adding main text content.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

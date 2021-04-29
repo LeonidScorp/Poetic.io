@@ -1,0 +1,21 @@
+uuid: 95a010b2-d7f3-4d8e-a9da-2f7d91443515
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.news
+id: node.news.field_date
+field_name: field_date
+entity_type: node
+bundle: news
+label: date
+description: 'Use for display custom date publication content news.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 1619604554
+default_value_callback: ''
+settings: {  }
+field_type: timestamp
